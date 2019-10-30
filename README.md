@@ -8,7 +8,7 @@ This project takes in a destored image and fill in the damaged pixels using a sp
 
 ## Intro:
 
-The task of Inpainting in Computer Vision is well known and widely used in this field. It consists in automatically filling the missing pixels in an image . There are two approaches in the literature. An example-based approach that searches for the nearest patch in the intact region of the patch containing the missing pixels. The nearest one is defined by a distance, for example, in [3], they used a simple eucildian distance. On the other hand, in the PDE (Partially Differential Equations) approach, they fill the missing part step by step from the bounds to the center of the distortion.
+The task of Inpainting in Computer Vision is well known and widely used in this field. It consists in automatically filling the missing pixels in an image . There are two approaches in the literature. An example-based approach that searches for the nearest patch in the intact region of the patch containing the missing pixels. The nearest one is defined by a distance, for example, in [2], they used a simple eucildian distance. On the other hand, in the PDE (Partially Differential Equations) approach, they fill the missing part step by step from the bounds to the center of the distortion.
 
 ## Results:
 
@@ -44,6 +44,6 @@ The task of Inpainting in Computer Vision is well known and widely used in this 
 
 ## Reference:
 
-Julien Mairal Sparse coding and Dictionnary Learning for Image Analysis INRIA Visual Recognition and Machine Learning Summer School, 2010
+[1] Julien Mairal Sparse coding and Dictionnary Learning for Image Analysis INRIA Visual Recognition and Machine Learning Summer School, 2010
 
-A. Criminisi, P. Perez, K. Toyama Region Filling and Object Removal by Exemplar-Based Image Inpainting IEEE Transaction on Image Processing (Vol 13-9), 2004
+[2] A. Criminisi, P. Perez, K. Toyama Region Filling and Object Removal by Exemplar-Based Image Inpainting IEEE Transaction on Image Processing (Vol 13-9), 2004
